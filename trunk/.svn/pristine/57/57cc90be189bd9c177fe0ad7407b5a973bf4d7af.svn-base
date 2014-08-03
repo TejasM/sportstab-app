@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="Login"
+              android:background="#EFEFEB">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Log in to SportsTab or create an account"/>
+
+    <EditText
+            android:id="@+id/id_username"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            />
+
+    <EditText
+            android:id="@+id/id_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            />
+
+
+    <Button
+            android:text="Log In"
+            android:id="@+id/id_login_button"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginBottom="15sp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:background="@drawable/button_custom"
+            android:textColor="#fff"
+            />
+
+    <Button
+            android:text="Sign Up"
+            android:id="@+id/id_signup_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15sp"
+            android:layout_marginLeft="15sp"
+            android:textSize="15sp"
+            android:background="@drawable/button_custom"
+            android:textColor="#fff"
+            />
+
+
+    <TextView
+            android:id="@+id/id_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:text=""/>
+
+</LinearLayout>

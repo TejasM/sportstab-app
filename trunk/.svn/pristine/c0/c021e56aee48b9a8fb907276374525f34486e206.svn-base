@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_gameview_layout"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mj"
+>
+
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:id="@+id/id_gameview_layout_court_button_horiz"
+	    android:layout_width="match_parent"
+		android:layout_weight="3"
+		android:layout_height="0dp"
+	>
+
+
+	</LinearLayout>
+
+	<com.example.coachingtab.EditView
+	    android:id="@+id/id_editbar_view"
+	    android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+	    tools:context=".CoachingTab" >
+
+	</com.example.coachingtab.EditView>
+
+</LinearLayout>

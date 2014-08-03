@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_gameview_layout_only"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mj"
+>
+
+   	<com.example.coachingtab.GameView
+	    android:id="@+id/id_court_view"
+	    android:layout_height="match_parent"
+	    android:layout_width="0dp"
+		android:layout_weight="3"
+	    tools:context=".CoachingTab" >
+
+	</com.example.coachingtab.GameView>
+
+	<com.example.coachingtab.ButtonView
+	    android:id="@+id/id_buttons_view"
+	    android:layout_height="match_parent"
+	    android:layout_width="0dp"
+		android:layout_weight="1"
+	    tools:context=".CoachingTab" >
+
+	</com.example.coachingtab.ButtonView>
+
+</LinearLayout>
